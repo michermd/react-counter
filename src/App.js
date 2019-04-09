@@ -25,7 +25,6 @@ function App({ initialCount }) {
   const addResutl = count => {
     resultArr.push(count);
     setInitialCount();
-    // console.log(resultArr);
   };
 
   return (
